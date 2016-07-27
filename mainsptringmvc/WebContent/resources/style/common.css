@@ -1,0 +1,53 @@
+#message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.productblock:hover { 
+    background-color: #ECE6E6;
+}
+.listproductName{
+	display:block;
+	text-align:center;
+	font-size: 20px;
+	margin-bottom: 35px;
+}
+.displayImage{
+	display:block;
+	text-align:center;
+}
+.catalogname{
+	font-size:20px;
+	text-align:center;
+	display:block;
+	
+}
+#messageData {
+    margin: 0 auto;
+}
+.productdetail{
+	margin: 10px;
+}
+.productdetail > tr{
+	padding: 20px;
+}
+.validation{
+	color: red;
+	font-size: 16px;
+}
+.odd{
+	
+}
+
+.even{
+	background-color: #F9F9F9 !important;
+}
+h2 { 
+	color: #111; 
+	font-family: 'Open Sans', sans-serif;
+	 font-size: 30px;
+	  font-weight: 300; 
+	  line-height: 32px; 
+	  margin: 0 0 12px; text-align: center;
+}

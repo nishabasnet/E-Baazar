@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_71"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/creditVerifSystem.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/jess.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/mysql-connector-java-5.1.20-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/rulesencoding.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJars/rulesengine.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/commons-dbcp2-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/commons-dbcp-20030825.184428.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/commons-pool2-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/commons-pool-20030825.183949.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/j2ee.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/javaee-api-6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/mockito-all-1.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-data-jpa-1.9.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Owner/Desktop/externalJarsSpring4/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

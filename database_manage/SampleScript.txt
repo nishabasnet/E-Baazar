@@ -1,0 +1,37 @@
+# place this script in mysql/bin directory in order to run it
+
+#  See all current databases:
+	SHOW databases;
+
+#  See all current users and hosts
+	SELECT Host, User FROM mysql.user;
+
+#  Create a new database named testdb2:
+	CREATE DATABASE IF NOT EXISTS testdb2;
+
+#  Create a new user who has full permissions on testdb:
+#	GRANT ALL ON testdb2.*  TO newuser@localhost;
+#	SELECT Host, User FROM mysql.user;
+
+#  Create a table
+  	CREATE TABLE IF NOT EXISTS testdb2.testtable (
+            id INT NOT NULL AUTO_INCREMENT, 
+	    name CHAR(25), 
+            income INT,
+	    PRIMARY KEY (id)
+        ) ENGINE=InnoDb;
+
+#  Show all tables for this database
+	SHOW TABLES IN testdb2;
+
+#  Insert data into a table
+#	INSERT INTO testdb2.testtable VALUES(NULL, 'Joe', 1005);
+
+#  Get metadata for testtable
+  	DESCRIBE testdb2.testtable;
+
+#  See data that was inserted
+#	SELECT * from testdb2.testtable;
+
+
+
